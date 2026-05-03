@@ -50,7 +50,8 @@ header {
 }
 
 .text_header button {
-    padding: 5px 25px;
+    padding: 5px 35px;
+    font-size: 20px;
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
@@ -133,4 +134,44 @@ main h2 {
     text-align: end;
     width: 60%;
     margin: 5px auto;
+}
+
+.messenge {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 100px;
+    display: flex;
+}
+
+.messenge .text {
+    flex: 8;
+}
+
+.messenge .text h3 {
+    color: #F9FAF8;
+    font-size: 26px;
+}
+
+.messenge .text p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 5px auto;
+}
+
+.messenge .button {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messenge .button button {
+    padding: 5px 35px;
+    background: none;
+    font-size: 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
 }
